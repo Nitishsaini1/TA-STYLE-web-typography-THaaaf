@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+ font-size: 16px;
+    line-height: 1.5;
+    font-family: "Karla", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    Font-Family:"DM Serif Display", serif;
+  font-size: 40px;
+}
+/* general styles */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: o 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start{
+    align-items: flex-start;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    padding: 10px 18px;
+    color: #6e6b74;
+    border: 1px solid #6e6b74;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-second{
+      border-color: white;
+      color: #fff;
+      
+}
+.line{
+    width: 250px;
+    border: 1px solid #fff;
+
+}
+/* header */
+.header{
+    padding: 16px 0;
+    background-color: white;
+}
+.brand{
+font-size: 40px;
+Font-Family:"DM Serif Display", serif;
+}
+.nav a{
+    font-size: 20px;
+    margin: 32px;
+    color: #6e6b74;
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+.color{
+    background-color: #2d2640;
+    padding: 60px 0;
+    color: #ffffff;
+}
+.col{
+    flex: 0 1 45%;
+}
+.col-head{
+    font-size: 60px;
+    margin-top: 16px;
+    line-height: 1.1;
+
+}
+.col-text{
+    color: #bcb8c4;
+    margin: 32px 0;
+    font-size: 20px;
+}
+.bot-img{
+    width: 100%;
+    margin-bottom: -200px;
+}
+/* section-2 */
+.about-2{
+    padding: 80px 0;
+}
+.col-2{
+    margin-top: 80px;
+}
+.big{
+   font-weight: 700;
+}
+ .black{
+    color: #837d7d;
+}
+.btn-third{
+       color: #837d7d;
+       border-color: #837d7d;
+}
+/* section-3 */
+.l-black{
+    width: 200px;
+    margin: 25px 0;
+    border: 1px solid #837d7d;
+}
+.headi{
+    margin-bottom: 40px;
+}
+.sec i{
+    font-size:50px;
+    color: #fff;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgb(65, 154, 238);
+    margin-bottom: 10px;
+}
+.sec h4{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.sec p{
+    line-height: 1.4;
+    font-size: 14px;
+    padding: 0 40px 0 0 ;
+    color:#837d7d ;
+    margin-bottom: 50px;
+}
+/* section-4 */
+.colors{
+    background-color: #2d2640;
+    padding: 20px 40px;
+}
+.colors h4{
+    color: #fff;
+      font-size: 60px;
+      width: 600px;
+}
+/* footer section */
+.footer{
+    margin-top: 70px;
+}
+.brand-one{
+    font-size: 60px;
+    font-weight: 500;
+}
+.nav-2 i{
+    font-size: 45px;
+}
+.hr{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about-us {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us a{
+       padding: 16px;
+       font-size: 19px;
+}
+.footer-2{
+    background-color: #2d2640;
+    color: #837d7d;
+    text-align: center;
+    padding: 25px 0;
+}
